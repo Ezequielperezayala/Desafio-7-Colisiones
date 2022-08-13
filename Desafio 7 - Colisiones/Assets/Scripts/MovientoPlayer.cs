@@ -8,18 +8,10 @@ public class MovientoPlayer : MonoBehaviour
     [Range(1f, 10f)]
     float Speed;
 
-    public float RotationX = 0f;
+    float RotationX = 0f;
 
     float movimientoX;
     float movimientoZ;
-
-
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
         RotationCamera();
